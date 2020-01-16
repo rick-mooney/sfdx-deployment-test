@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RollupSum__c</fullName>
+    <externalId>false</externalId>
+    <label>RollupSum</label>
+    <summarizedField>Sample_Child__c.Number__c</summarizedField>
+    <summaryForeignKey>Sample_Child__c.Sample_Parent__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
